@@ -1,0 +1,190 @@
+.input-El {
+    padding: 17px;
+    width:25vw;
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 15px;
+    border-width: 1px;
+    border-color: black;
+    font-weight: 550;
+}
+.login-btn {
+    width: 27vw;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: orangered;
+    color:white;
+    border-width: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-head{
+    color: orangered;
+}
+
+.login-card {
+    border: solid 1px transparent;
+    margin-right:30px ;
+}
+.forgot-card {
+   display: flex;
+   justify-content: space-between;
+}
+
+.forgot-text{
+    font-size: 13px;
+    color: red;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 5px;
+    line-height: 0px;
+}
+.che {
+   display: flex;
+}
+.sign-word{
+    color: red;
+    cursor: pointer;
+    padding-left: 3px;
+}
+.not-account{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+.as {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+.log-img {
+    margin-top: 15px;
+}
+
+.name{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+
+.facebook-card{
+    border: 1px solid orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width:110px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    width:6vw;
+}
+
+.facebook-size{
+    font-size: 26px;
+    color: rgb(3, 76, 105);
+}
+
+.icons-card {
+    display: flex;
+    justify-content: space-between;
+}
+.with{
+    text-align: center;
+padding: 8px;
+}
+.log-img {
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 94vh;
+}
+
+
+
+  @media screen and (max-width: 992px){
+    .name{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+     }
+}
+
+@media screen and (max-width:821px){
+    .name{
+        display: flex; 
+        flex-direction: column;
+     }
+     .input-El  {
+        width: 75vw;
+        margin-bottom: 0px;
+        padding: 14px;
+    }
+    .login-btn{
+        width:85vw;
+    }
+
+    .forgot-card {
+        
+        margin-right: 95px;
+    }
+    .with {
+        padding: 1px;
+        margin-right: 50px;
+
+     }
+     .log-img{
+
+     height: 80vh;
+     width: 80vw;
+    }
+    .che {
+        display: none;
+    }
+   
+    }
+    
+  
+.left-right-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.contextual-sign-in-modal__btn-container > * {
+    margin-bottom: 16px;
+} 
+
+.text-color-text {
+    color: var(--color-text);
+}
+text-sm {
+    font-size: 14px;
+}
+.font-sans {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+.px-2 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+hr {
+   border: 0px;
+   height: 2px;
+   background-color: #c2c2c2;
+   margin: 5px;
+   margin-top: 30px;
+}
+.ax {
+    text-align: center;
+    padding: 8px;
+    display: block;
+    width: 88px;
+    margin: auto;
+    background: #fff;
+    font-size: 14px;
+    margin-top: -24px;
+}

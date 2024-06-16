@@ -1,0 +1,78 @@
+.signup-card {
+  margin-left: 19px;  
+}
+
+.signup-input {
+    padding: 13px;
+    border-radius: 5px;
+    margin: 5px 5px 14px 2px;
+    width:200px;
+    border-width: 1px;
+    outline: none;
+}
+
+.password-input {
+  border-radius: 5px;
+  padding: 13px;
+  margin: 5px 5px 14px 2px;
+  width:29vw;
+  border-width: 1px;
+  outline: none;
+}
+.signup-btn {
+  width: 31vw;
+  border-radius: 3px;
+  padding: 15px;
+  background-color: orangered;
+  color: white;
+  border-width: 0px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.signup-img {
+  margin-top: 15px;
+    border-radius: 5px;
+    height: 94vh;
+}
+
+@media screen and (min-width: 822px){
+  .signup-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width:821px){
+  .signup-input{
+    width: 37vw;
+  }
+  .signup-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .password-input {
+    width: 83vw;
+  }
+  .signup-btn {
+    width: auto;
+    width: 90vw;
+  }
+  .icons-card {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+  
+}  
+.signup-img {
+  height: 84vh;
+  width: 85vw;
+  margin-left: 20px;
+}
+
+
+}

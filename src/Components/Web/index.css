@@ -1,0 +1,24 @@
+
+
+@media screen and (min-width: 822px){
+    .splash-img {
+        height: 70vh;
+      width: 60vw;
+    }
+    .card {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+ 
+    
+@media screen and (max-width:821px){
+    .splash-img {
+        height: 50vh;
+      width: 85vw;
+    }
+    .card {
+        text-align: center;
+        margin-top: 15%;
+    }
+}

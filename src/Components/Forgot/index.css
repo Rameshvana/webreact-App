@@ -1,0 +1,97 @@
+.forgot-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-card {
+    
+}
+.back {
+    display: flex;
+    font-weight: 490;
+    cursor: pointer;
+}
+
+.back-icon{
+   color: orangered; 
+   margin: 3px 4px 0px 0px;
+   cursor: pointer;
+   font-size:20px;
+   font-weight: bold;
+}
+
+.forgot-email {
+    padding: 17px;
+    width: 25vw;
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 15px;
+    border-width: 1px;
+    border-color: black;
+    font-weight: 550;
+    margin:15px 0px 0px 0px;
+}
+.forgot-btn {
+    width: 27vw;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+    border-width: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 25px 0px 0px 0px;
+}
+.f{
+    margin:8px;
+}
+.forgot-img {
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 94vh;
+}
+
+@media screen and (min-width: 822px){
+    .forgot-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-card {
+        width: 27vw;
+    }
+
+}
+
+@media screen and (max-width:821px){
+    .forgot-section{
+       display: flex;
+       flex-direction: column; 
+    }
+    .forgot-img {
+     height: 80vh;
+     width: 80vw;
+    }
+    .login-card {
+        border: solid 1px transparent;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .forgot-email{
+       width:78vw; 
+       margin-bottom: 0px;
+    }
+    .forgot-btn {
+       width: 88vw; 
+       margin-top: 8px;
+    }
+    .para {
+        margin-left: 14px;
+    }
+}
+
+   
